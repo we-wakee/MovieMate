@@ -32,7 +32,16 @@ body{
     gap: 1.2em;
 }
 
-.search-container input, .search-container button{
+#search-btn {
+    transition: 0.5s;
+    border-radius: 0.3em;
+    
+}
+
+#search-btn:hover{
+    background-color: #ffd279;;
+}
+.search-container input{
     font-size: 0.9em;
     outline: none;
     border-radius: 0.3em;
@@ -44,10 +53,10 @@ body{
     color: #fff;
     padding: 0.7em;
 }
-
+/* 
 .search-container input:focus{
     border-color: #fff;
-}
+} */
 
 .search-container button{
     background-color: #ffb92a;
