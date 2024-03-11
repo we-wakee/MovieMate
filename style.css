@@ -32,13 +32,13 @@ body{
     gap: 1.2em;
 }
 
-#search-btn {
+#search-btn button{
     transition: 0.5s;
     border-radius: 0.3em;
     
 }
 
-#search-btn:hover{
+#search-btn button:hover{
     background-color: #ffd279;;
 }
 .search-container input{
